@@ -32,10 +32,14 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
 
 - Creator: [@subzzone](https://github.com/subzzone)
 
-## Alliedmodders
+## Objectives
 
-NULL
-
+- Insert GeoIP in the message
+- Personalize configuration:
+  - Insert or remove bot messages
+  - Change message colors
+- Insert more languages
+- 
 ## Links
 
 - Alliedmodders: https://forums.alliedmods.net/member.php?u=310879
