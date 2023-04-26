@@ -39,7 +39,7 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
   - Insert or remove bot messages
   - Change message colors
 - Insert more languages
-- 
+
 ## Links
 
 - Alliedmodders: https://forums.alliedmods.net/member.php?u=310879
