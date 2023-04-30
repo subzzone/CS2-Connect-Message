@@ -14,22 +14,22 @@
 -- Global variables --------------------
 local count = 1;
 local usersId = {} --User id array
-local usersIsAnBot = {} -- User bool bot
+local usersIsBot = {} -- User bool bot
 
 function OnPlayerPutInServer(event)
 
 	-- User Variables -------------------
 	local useridConnect = event.userid;
 	local nameConnect = event.name
-	local isAnBot = event.bot;
+	local isBot = event.bot;
 
-	-- IsAnBot saver --------------------
+	-- IsBot saver --------------------
 	usersId[count] = useridConnect;
-	usersIsAnBot[count] = isAnBot;
+	usersIsBot[count] = isBot;
 	count = count + 1
 
 	-- Print message --------------------
-	if (isAnBot == 1) then
+	if (isBot == 1) then
 		ScriptPrintMessageChatAll("\x04 \x04 [Server] Bot \x08 \x08" .. nameConnect .. "\x04 \x04 connected.");
 	else
 		ScriptPrintMessageChatAll("\x04 \x04 [Server] User \x08 \x08" .. nameConnect .. "\x04 \x04 connected.");
@@ -42,18 +42,18 @@ function OnPlayerDisconnect(event)
 	-- User Variables -------------------
 	local useridDisconnect = event.userid;
 	local nameDisconnect = event.name;
-	local isAnBot = 0;
+	local isBot = 0;
 
-	-- Loop to find the user id and add isAnBot--
+	-- Loop to find the user id and add isBot--
 	for i = 1, #usersId do
 		if (usersId[i] == useridDisconnect) then
-			isAnBot = usersIsAnBot[i];
+			isBot = usersIsBot[i];
 			break
 		end
 	end
 
 	-- Print message --------------------
-	if (isAnBot == 1) then
+	if (isBot == 1) then
 		ScriptPrintMessageChatAll("\x07 \x07 [Server] Bot \x08 \x08" .. nameDisconnect .. "\x07 \x07 disconnected.");
 	else
 		ScriptPrintMessageChatAll("\x07 \x07 [Server] User \x08 \x08" .. nameDisconnect .. "\x07 \x07 disconnected.");
