@@ -43,8 +43,8 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
 ## Images
 
 <h1 align="center">
- <img src="https://i.imgur.com/lERZ90S.png" />
- <img src="https://i.imgur.com/lERZ90S.png" />
+ <img src="https://i.imgur.com/7IYsl1g.png" />
+ <img src="https://i.imgur.com/nAPmx6r.png" />
 <br>
 </h1>
 
