@@ -34,11 +34,11 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
 
 ## Objectives
 
-- Insert GeoIP in the message
-- Personalize configuration:
-  - Insert or remove bot messages
-  - Change message colors
-  - Change name tag
+- Insert GeoIP in the message 
+- Personalize configuration: ✅
+  - Insert or remove bot messages ✅
+  - Change message colors ❌ (Unnecessary in this situation)
+  - Change name tag ✅
 - Insert more languages
 
 ## Links
