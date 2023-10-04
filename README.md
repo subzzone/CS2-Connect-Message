@@ -19,6 +19,27 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
 - Bright colors when connecting and disconnecting.
 - Display the name of the user who disconnects.
 
+## New features
+
+- Add Languages
+
+  Now you can add custom languages; you just need to translate the lines. It's very important to follow the order.
+
+  Ubication file ***connect-message/cfg/cmlanguages.lua***
+
+  Ex: ["hi"] = {"बॉट", "उपयोगकर्ता", "कट गया", "जुड़ गया"}
+
+  Ubication file ***connect-message/cfg/cmconfig.lua***
+  
+  EX: language = "hi",
+
+- Enable and disable bot notifications
+  
+  Now you have the option to choose whether you want to show bot notifications or not. To do so, simply access the file ***connect-message/cfg/cmconfig.lua*** and change 'true' to enable them or 'false' to disable them.
+ 
+- Change nametag
+
+  Now you can customize the label name by simply accessing the file ***connect-message/cfg/cmconfig.lua***  and changing the value of 'nameTag' to your desired one.
 ## Images
 
 <h1 align="center">
@@ -39,7 +60,7 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
   - Insert or remove bot messages ✅
   - Change message colors ❌ (Unnecessary in this situation)
   - Change name tag ✅
-- Insert more languages
+- Insert more languages ✅
 
 ## Links
 
