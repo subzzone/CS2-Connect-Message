@@ -11,6 +11,15 @@
 ************************************************************************************************************************************
 --]]
 
+print("CONNECT MESAGE ON")
+
+-- Remove duplicated listeners 
+if tListenerIds then
+    for k, v in ipairs(tListenerIds) do
+        StopListeningToGameEvent(v)
+    end
+end
+
 -- Global variables --------------------
 local count = 1;
 local usersId = {} --User id array
