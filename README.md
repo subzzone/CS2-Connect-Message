@@ -38,6 +38,7 @@ Whenever a player joins or leaves, a message will be displayed indicating their 
 - Personalize configuration:
   - Insert or remove bot messages
   - Change message colors
+  - Change name tag
 - Insert more languages
 
 ## Links
