@@ -14,6 +14,7 @@ local language = {
     ["nl"] = {"De bot", "De Gebruiker", "heeft de verbinding verbroken", "heeft verbinding gemaakt"},
     ["sv"] = {"Boten", "Användaren", "har kopplats bort", "har anslutit"},
     ["tr"] = {"Bot", "Kullanıcı", "bağlantı kesildi", "bağlandı"},
+    ["lv"] = {"Bots", "Spēlētājs", "pameta spēli", "pievienojās spēlēi"},
 }
 
 return language
